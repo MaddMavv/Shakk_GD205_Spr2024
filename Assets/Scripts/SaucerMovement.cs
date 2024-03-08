@@ -15,9 +15,6 @@ public class SaucerMovement : MonoBehaviour
     // Fixed Update is called once per standard interval instead of per frame
     void FixedUpdate()
     {
-      rb.AddForce(0f, 0f, 1f);  
-    
-      {
         if (Input.GetKey(KeyCode.W)){
             Debug.Log("UFO moved foward");
             rb.AddForce(0f, 0f, acc);
@@ -42,6 +39,9 @@ public class SaucerMovement : MonoBehaviour
             Debug.Log("UFO moved ");
             rb.AddForce(0f, -acc, 0f);
         }
-      }
     }
+    void OnCollisionEnter(Collision col){
+        Destroy(gameObject);
+    }
+    
 }

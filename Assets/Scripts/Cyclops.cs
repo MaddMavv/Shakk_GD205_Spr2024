@@ -6,7 +6,7 @@ public class Cyclops : MonoBehaviour
 {
    public float explosionForce = 5f;
    public float explosionRadius = 20f;
-   public 
+   public GameObject prefab;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,19 +16,18 @@ public class Cyclops : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)){
-            Ray laser = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit = new RaycastHit();
-            
-            if(Physics.Raycast(laser, out hit) && Input.GetMouseButton(0)){
-                Debug.Log("booyah, cyclops sucks!");
-                if (hit,rigidbody){
-                    hit.rigidbody.AddExplosionForce(explosionForce, hit.point, explosionRadius);
-                }
+        Ray laser = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit = new RaycastHit();
+        
+        if(Physics.Raycast(laser, out hit) && Input.GetMouseButton(0)){
+            Debug.Log("booyah, cyclops sucks!");
+            if (hit.rigidbody){
+                hit.rigidbody.AddExplosionForce(explosionForce, hit.point, explosionRadius);
             }
+        }
 
-            if(Physics.Raycast(laser, out hit) && Input.GetMouseButton(1)){  
-                Instantiate(prefab, hit.point, Quaternion, ) 
+        if(Physics.Raycast(laser, out hit) && Input.GetMouseButton(1)){  
+            Instantiate(prefab, hit.point, Quaternion.identity);
         }
     }
 }

@@ -5,15 +5,51 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/Week 4.unity
-    guid: 1176373ffc8be874f8e2a07fcb8fcd5d
   - enabled: 0
     path: Assets/Scenes/sample_scene.unity
     guid: 9a0308322a5f84e499ce9f9f4e824b92
   - enabled: 1
+    path: Assets/Scenes/animation class work.unity
+    guid: 4550d88e7d4c74a40ab44348092ea822
+  - enabled: 1
+    path: Assets/Scenes/GoM minigame.unity
+    guid: f961ed3372772324dbb6d08a6ff6e496
+  - enabled: 1
+    path: Assets/Scenes/Tower defense game.unity
+    guid: 95efb178d2588284b9564c3aecce061b
+  - enabled: 1
+    path: Assets/Scenes/Week 1 - Bedroom.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Week 1.unity
+    guid: 1fc539bc210fad34aa04af8b71b77616
+  - enabled: 1
+    path: Assets/Scenes/Week 2.unity
+    guid: e008b517e1dd76e439d50d03eac82277
+  - enabled: 1
+    path: Assets/Scenes/Week 3.unity
+    guid: fc8280d66afdfbc498d2a5f22eed05b6
+  - enabled: 1
+    path: Assets/Scenes/Week 4.unity
+    guid: 1176373ffc8be874f8e2a07fcb8fcd5d
+  - enabled: 1
+    path: Assets/Scenes/Week 5 - Intro to Physics.unity
+    guid: 704b67f605b8b7d4aac24ea8d92c8542
+  - enabled: 1
+    path: Assets/Scenes/Week 6 - UFO stuff.unity
+    guid: 600f8eb62c29519449bd04b9f31103f7
+  - enabled: 1
+    path: Assets/Scenes/Week 7 - Raycast.unity
+    guid: 2048853ef7a90d04e8c0d8e5ac561d52
+  - enabled: 1
     path: Assets/Scenes/Week 8 - Character & Animator Controllers.unity
     guid: 9493b8949aabf8d4bb6c29ada81a8c80
+  - enabled: 1
+    path: Assets/Scenes/Week 9 - Reviews and Final Prompts.unity
+    guid: 37d12257ca46da44489da0eb3239735d
+  - enabled: 1
+    path: Assets/Scenes/Week 10 -Probuilder & NavMesh.unity
+    guid: d831f510254f35a4d822004078685998
   - enabled: 1
     path: Assets/Scenes/Week 11 - UI & UX.unity
     guid: e7a61343f553c854db8ba75f8a14476c
